@@ -1,0 +1,6 @@
+RuleID	Rule
+BETA-V4-001	Only rows with InferenceReportable=TRUE are manuscript-facing inferential tests.
+BETA-V4-002	A72 SampleType permutations are restricted within confirmed PairID_Substrate.
+BETA-V4-003	A60 interaction and A36/A30 season permutations are restricted within confirmed fixed LocationID.
+BETA-V4-004	Nuisance fixed-adjustment terms retain algorithmic statistics but have no reportable p-value.
+BETA-V4-005	PERMANOVA targets are interpreted with matched PERMDISP and target-family BH correction.

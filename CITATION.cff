@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use these workflows, please cite the associated study and this repository."
+title: "Microbial ecology analysis workflows"
+type: software
+version: "0.1.0"
+date-released: 2026-08-18
+url: "https://github.com/sjparkmk/microbial-ecology-analysis"
+repository-code: "https://github.com/sjparkmk/microbial-ecology-analysis"
+license: MIT
+authors:
+  - name: "The authors of the associated study"

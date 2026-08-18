@@ -1,0 +1,34 @@
+# Local/private inputs and reference resources
+data/
+raw_data/
+inputs/
+references/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fa
+*.fa.gz
+*.fna
+*.fna.gz
+
+# Generated analysis products and local environments
+output/
+outputs/
+outfile/
+results/
+figures/generated/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.Rhistory
+*.Rproj.user/
+
+# Archives and operating-system metadata
+*.zip
+*.tar
+*.tar.gz
+.DS_Store
+Thumbs.db

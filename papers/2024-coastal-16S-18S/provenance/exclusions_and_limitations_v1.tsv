@@ -1,0 +1,9 @@
+ID	Limitation	Consequence
+L01	Archival DOI/Zenodo/Figshare link is not yet assigned.	Add the final archival link to the paper README and CITATION metadata after deposit.
+L02	No fresh-environment full analysis rerun was performed during packaging.	The public checker covers integrity, syntax, path hygiene, and manifest consistency; it does not replace a full data rerun.
+L03	The raw-to-ASV lineage and protected common-75 inputs are not redistributed.	Downstream users must supply the documented external inputs under /your/data/.
+L04	External FASTQs, databases, USEARCH, and FAPROTAX files are not redistributed.	Optional upstream/external modules require author-supplied dependencies and license review.
+L05	Some figure scripts are execution snapshots with historical directory contracts.	Run --check/--dry-run first and adapt only the documented input/output roots.
+L06	No complete R/Python dependency lockfile exists.	Executed session/version records are supplied; exact portability is not guaranteed.
+L07	Cross-marker concordance retains its frozen analysis binding.	Do not silently recompute or reinterpret it as causality or direct interaction.
+L08	NCM/tNST diagnostics were non-informative for the reported interpretation.	They are retained for provenance but cannot support positive assembly claims.

@@ -1,0 +1,17 @@
+Analysis	MethodOrModel	FiltersOrFormula	RandomizationOrSeed	Evidence
+18S upstream	read processing	merge; strip 20/18; maxEE rate 0.01; dereplicate minsize 10; UNOISE3 minsize 10; map 0.97; exact audit 1.00; SINTAX 0.1	deterministic	run_config_v1.json
+16S/18S rarefaction	vegan::rrarefy	20,000 / 50,000 reads; without replacement	seed=1; Mersenne-Twister/Inversion/Rejection	rarefaction configs
+alpha	hierarchical exact sign-flip	five contrast families; Site or SiteSeasonBlock independent units; two-sided	all 2^n sign assignments; no stochastic seed	00_design_v4/model_registry_v4.tsv
+beta	adonis2 + betadisper	Bray-Curtis; 9,999 restricted permutations; target-family BH	seed = 54101 + marker_index*1000 + surface_index*100 + model_index*10 + offset, where marker_index=0/1 for 16S/18S, surface_index=0/1 for rarefied/TSS, model_index=1..5 in registered order, and offset=1 PERMANOVA or 2 PERMDISP (thus 54112..55253)	run_alpha_beta_hierarchical_v1.R + 00_design_v4/model_registry_v4.tsv
+environment PCA	prcomp	10 standardized variables; TOC excluded	deterministic	environment_analysis_config_v1.tsv
+environment RDA	Hellinger community ~ EnvPC1 + EnvPC2	overall and sequential tests	all 5,039 nonidentity n=7 permutations	environment_analysis_config_v1.tsv
+environment Mantel	Spearman Mantel	ASV Bray vs scaled Euclidean environment; full + LOSO	5,039 full; 719 each LOSO; exhaustive	environment_analysis_config_v1.tsv
+concordance	Spearman / Procrustes	9,999 Site-cluster bootstraps/permutations	73100/84100/94100 seed families	concordance_analysis_config_v1.tsv
+RF	ranger classification	500 observed trees; 150 null trees; fold-local prevalence>=20%; mean RA>=0.05%; CLR pseudocount 0.5	99 within-pair label permutations; task seeds 12000 + counter*100000	advanced_ecology_original_style_v1.R
+NCM	Sloan occurrence-frequency	beta-CDF prediction; m minimizes unweighted occurrence SSE over log(m) in log[1e-8,100]; binomial 95% display envelope	199 Site-cluster bootstraps; LOSO deterministic; seeds 73001=16S Sea-sand, 73002=16S Water, 73003=18S Sea-sand, 73004=18S Water	scripts/runnable/advanced/advanced_ecology_v1.R
+tNST	NST::tNST PF null	Bray abundance and Jaccard incidence; Site metacommunity	199 null randomizations and 999 descriptive package bootstraps; base seeds 92000=16S Sample type, 93000=16S Season, 94000=18S Sample type, 95000=18S Season; Jaccard adds 10000; package bootstrap adds 50000 to its fit seed	scripts/runnable/advanced/advanced_ecology_v1.R
+network	Spearman on CLR residuals	prevalence>=20%; mean RA>=0.05%; top50; pseudocount 0.5; residualize Site+Season+SampleType; core q<0.01 |r|>=0.70 same-sign>=0.95 CI excludes 0	199 LocationID/fixed-position cluster bootstraps; seeds 130001-130003	advanced_ecology_original_style_v1.R
+DA	ANCOM-BC2 primary	unrarefied; prevalence>=10%; BH q<0.05; passed_ss; >=1 sensitivity direction; LOSO stability>=0.80	seed=1; n_cl=6	daa_function_analysis_contract_v2.tsv
+DA sensitivity	DESeq2 / paired ALDEx2	paired/blocked formulas; ALDEx2 prevalence>=20%, top150 if needed, mc.samples=32	seed=1	02_daa_function_original_style_v1.R
+FAPROTAX	FAPROTAX 1.2.7	median mapped reads>=30%; each sample>=20%; BH q<0.05; LOSO stability>=0.80	deterministic mapping; contrast code seed=1	scripts/optional_external/02_daa_function_v1.R
+core ASV	prevalence rule	rarefied count>0 and prevalence>=0.80 within each SampleType x Season group; union; top40 display; S7 top30	deterministic ASV-ID tie break	advanced_figure_source_contract_v1.md

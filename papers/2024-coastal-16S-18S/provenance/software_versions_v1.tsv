@@ -1,0 +1,19 @@
+Software	Version	Evidence	Status
+Python	3.13.5	18S upstream run_config_v1.json	executed
+SeqKit	2.11.0	18S upstream run_config_v1.json	executed
+USEARCH	12.0 [b1d935b]	18S upstream run_config_v1.json	executed; proprietary/nonredistributable
+VSEARCH	2.30.3	18S upstream run_config_v1.json	executed
+R	4.5.2	saved sessionInfo/config files	executed
+vegan	2.7-3	alpha/beta/environment/concordance sessionInfo	executed
+permute	0.9-10	alpha/beta/environment/concordance sessionInfo	executed
+digest	0.6.39	saved sessionInfo	executed
+ranger	0.18.0	advanced_ecology_v2 R_sessionInfo	executed
+pROC	1.19.0.1	advanced_ecology_v2 R_sessionInfo	executed
+NST	3.1.10	advanced_ecology_v2 R_sessionInfo	executed
+igraph	2.2.2	advanced_ecology_v2 R_sessionInfo	executed
+ANCOMBC	2.12.1	daa_function_v2 R sessionInfo	executed
+DESeq2	1.50.2	daa_function_v2 R sessionInfo	executed
+ALDEx2	1.42.0	daa_function_v2 R sessionInfo	executed
+FAPROTAX	1.2.7	analysis contract and hashed local DB	executed; external DB/script not redistributed automatically
+DECIPHER/Biostrings/phangorn	execution-time versions not captured	package29 tree worker	reproducibility gap; current versions must not be presented as executed
+Python plotting stack	execution-time lockfile not captured	Python figure packages	presentation-only gap

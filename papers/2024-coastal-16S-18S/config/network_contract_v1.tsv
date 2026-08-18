@@ -1,0 +1,36 @@
+Section	Parameter	Value
+runtime	R_version	4.5.2
+cohort	samples	75
+cohort	sites	7
+cohort	location_clusters	21
+feature	16S_rank	Genus
+feature	18S_rank	Class
+feature	prevalence_min	0.20
+feature	mean_relative_abundance_min	0.0005
+feature	max_taxa	50
+transform	pseudocount	0.5
+transform	method	centered-log-ratio
+model	additive	~ Site + Season + SampleType
+model	interaction	~ Site + SampleType * Season
+testing	correlation	Pearson
+testing	BH_family	separate within each of 16S_within, 18S_within, and 16S_18S_cross
+bootstrap	accepted_legacy_location_resamples	199
+bootstrap	accepted_legacy_refit	FALSE
+bootstrap	refit_location_resamples	999
+bootstrap	location_seed	2026081401
+bootstrap	site_resamples	999
+bootstrap	site_seed	2026081402
+bootstrap	model_refit_each_resample	TRUE
+bootstrap	minimum_valid_fraction	0.95
+loso	unit	Site
+loso	refits	7
+loso	minimum_same_sign_fraction	0.8571428571428571
+edge_gate	q_max_exclusive	0.01
+edge_gate	abs_rho_min	0.70
+edge_gate	bootstrap_same_sign_min	0.95
+edge_gate	bootstrap_interval	excludes_zero
+claim_gate	minimum_strict_edges_for_interpretation	3
+claim_gate	maximum_strict_edges_for_interpretation	60
+claim_gate	maximum_strict_density	0.05
+claim_gate	minimum_edge_site_loso_robust_fraction	0.80
+claim_gate	language	association_only

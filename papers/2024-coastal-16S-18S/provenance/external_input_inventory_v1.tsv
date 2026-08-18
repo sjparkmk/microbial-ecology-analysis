@@ -1,0 +1,8 @@
+Input	PathTemplate	Included	Reason
+16S raw FASTQs and original raw-to-ASV workflow	/your/data/raw/16S/	No	raw-to-ASV lineage is not redistributed in this code-only package
+18S raw FASTQs	/your/data/raw/18S/	No	large external sequencing input
+USEARCH 12	/your/data/tools/usearch12	No	proprietary executable
+PR2 v5.1.1 / SILVA 138.2 / RDP v18	/your/data/references/	No	external reference databases
+Processed common-75 ASV/count tables and sample metadata	/your/data/inputs/common-75/	No	user-selected public scope excludes processed data and metadata
+EasyAmplicon2 implementation	Not applicable	No	no third-party implementation is copied; only an in-house table-format adapter is included
+FAPROTAX script/database	/your/data/external/FAPROTAX/	No	external third-party material
