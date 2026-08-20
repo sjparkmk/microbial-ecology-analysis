@@ -4,7 +4,7 @@ suppressPackageStartupMessages({
   library(readr)
 })
 
-project_root <- "/your/data/" # insert your path
+project_root <- "/user/link/path" # insert your path
 alpha_root <- file.path(project_root, "revision", "re_analysis", "05_alpha_diversity_v3", "results")
 package_root <- file.path(project_root, "revision", "re_analysis", "15_revision_alpha_results_v1")
 source_dir <- file.path(package_root, "source_data")

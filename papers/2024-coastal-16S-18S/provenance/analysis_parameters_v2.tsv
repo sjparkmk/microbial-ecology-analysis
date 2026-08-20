@@ -1,0 +1,15 @@
+Analysis	MethodOrModel	FiltersOrFormula	RandomizationOrSeed	Evidence
+16S/18S rarefaction	vegan::rrarefy	20,000/50,000 reads; without replacement	seed=1	final Methods
+alpha	hierarchical exact sign-flip	five contrasts per marker and metric; Site-synchronized units	all admissible exact sign assignments; metric-family and 30-test BH sensitivity	run_hierarchical_exchangeability_v2.R
+beta	Site-synchronized adonis2 + betadisper	Bray–Curtis; rarefied primary; matched A72/A60/A36/A30 sensitivity	exact Site-synchronized permutation surfaces; target-family BH	run_hierarchical_exchangeability_v2.R
+environment PCA	prcomp	10 standardized variables; TOC excluded; seven Spring Sea-sand Site records	deterministic	run_environment_exploratory_v1.R
+environment RDA	Hellinger community ~ EnvPC1 + EnvPC2	Site-centroid exploratory model	5,039 nonidentity Site-label permutations	run_environment_exploratory_v1.R
+environment Mantel	Spearman Mantel	ASV Bray–Curtis vs scaled environmental Euclidean; full + LOSO	5,039 full and 719 per LOSO	run_environment_exploratory_v1.R
+cross-marker concordance	Spearman + symmetric Procrustes	common 75 samples; Bray–Curtis and two-axis ordinations	9,999 Site-restricted bootstrap/permutation draws	run_cross_marker_concordance_v1.R
+RF	ranger Site-blocked classification	500 trees for every observed/null fit; training-fold prevalence>=0.10; mean RA>=0.0001; CLR pseudocount=0.5	999 matched-pair permutations plus complete coherent-Site patterns; 1,999 Site bootstraps	run_rf_option_c_v1.R
+residual association	interaction-aware CLR residual model	Site + Sample type * Season; prevalence>=0.20; mean RA>=0.0005; top 50; pseudocount=0.5	999 LocationID refits + 999 Site refits + seven LOSO fits	run_residual_network_interaction_v1.R
+residual association display	robust edge gate	q<0.01; |rho|>=0.70; valid/same-sign>=0.95; interval excludes zero; Site/LOSO support	deterministic display from accepted refits	render_interaction_residual_associations_v1.R
+paired DA	ANCOM-BC2 primary	unrarefied; prevalence>=0.10; BH q<0.05; pseudo-count sensitivity; method agreement; LOSO>=0.80	seed=1; n_cl=6	02_daa_function_v1.R
+DA sensitivity	DESeq2 + paired ALDEx2	paired/blocked formulas; ALDEx2 prevalence>=0.20; top 150 by total count if needed; mc.samples=32	seed=1	02_daa_function_v1.R
+distributional breadth	standardized Levins B_A	25 observed Site x Sample type x Season cells; prevalence>=10% samples and >=3 Sites; continuous estimates	2,000 Site-stratified fixed-position bootstraps; seven LOSO; A60 sensitivity	run_distributional_breadth_common75_v1.R
+core ASV	prevalence rule	rarefied count>0 and prevalence>=0.80 within Sample type x Season; union; top-40 displays and top-30 tree display	deterministic ASV-ID tie break	final presentation scripts

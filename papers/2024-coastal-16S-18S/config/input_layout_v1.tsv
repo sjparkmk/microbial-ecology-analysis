@@ -1,9 +1,0 @@
-LogicalInput	PathTemplate	Included	Instruction
-analysis root	/your/data/analysis/	No	External analysis tree expected by legacy/current wrappers; inspect each script before execution.
-common-75 processed inputs	/your/data/inputs/common-75/	No	Provide the frozen 75-sample analysis inputs locally; processed ASV tables and metadata are not redistributed.
-16S fixed-depth table	/your/data/inputs/common-75/16S_rarefied_20000/	No	75 samples at 20,000 reads per sample.
-18S fixed-depth table	/your/data/inputs/common-75/18S_rarefied_50000/	No	75 samples at 50,000 reads per sample; PR2-primary taxonomy.
-raw 16S FASTQs	/your/data/raw/16S/	No	External raw input; not included in this repository.
-raw 18S FASTQs	/your/data/raw/18S/	No	External raw input; not included in this repository.
-reference databases	/your/data/references/	No	PR2-primary 18S; RDP v18/SINTAX 16S; SILVA 138.2 only for reference-chimera screening.
-output root	/outfile/	No	All generated outputs must be written below this directory.

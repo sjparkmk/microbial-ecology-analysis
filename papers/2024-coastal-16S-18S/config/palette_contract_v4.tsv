@@ -1,9 +1,0 @@
-Aesthetic	Variable	Level	Value	Order	ContractStatus	Notes
-color	GeologicalHabitat	Ocean	#0072B2	1	frozen	Use this exact color whenever GeologicalHabitat is encoded.
-color	GeologicalHabitat	Tidal	#E69F00	2	frozen	Use this exact color whenever GeologicalHabitat is encoded.
-color	GeologicalHabitat	Island	#009E73	3	frozen	Use this exact color whenever GeologicalHabitat is encoded.
-shape	SampleType	Sea-sand	21	1	frozen	SampleType is not assigned a competing color palette.
-shape	SampleType	Water	24	2	frozen	SampleType is not assigned a competing color palette.
-linetype	Season	Spring	solid	1	frozen	Reader-facing Season mapped from provenance Campaign=First; Campaign remains in master metadata.
-linetype	Season	Autumn	dashed	2	frozen	Reader-facing Season mapped from provenance Campaign=Second; Campaign remains in master metadata.
-label	Site	all seven sites	direct_label	1	frozen	No unfrozen site color palette is introduced in v1.

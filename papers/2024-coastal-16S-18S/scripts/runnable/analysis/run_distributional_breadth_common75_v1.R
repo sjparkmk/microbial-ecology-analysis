@@ -2,7 +2,7 @@
 
 options(stringsAsFactors = FALSE, warn = 1)
 
-root <- normalizePath("/your/data/", winslash = "/", mustWork = TRUE) # insert your path
+root <- normalizePath("/user/link/path", winslash = "/", mustWork = TRUE) # insert your path
 pkg <- file.path(root, "revision/re_analysis/54_revision_niche_breadth_common75_v1")
 dirs <- file.path(pkg, c("source_data", "results", "provenance", "qc"))
 invisible(lapply(dirs, dir.create, recursive = TRUE, showWarnings = FALSE))

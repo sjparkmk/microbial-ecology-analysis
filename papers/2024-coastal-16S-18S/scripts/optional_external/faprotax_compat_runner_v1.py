@@ -15,7 +15,7 @@ from pathlib import Path
 import numpy
 
 
-UPSTREAM = Path("/your/data/collapse_table.py")  # insert your path
+UPSTREAM = Path("/user/link/path/collapse_table.py")  # insert your path
 
 
 def main() -> None:

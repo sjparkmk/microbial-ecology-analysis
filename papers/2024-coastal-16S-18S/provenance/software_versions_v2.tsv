@@ -1,0 +1,15 @@
+Software	Version	Evidence	Status
+Python	3.13.5	upstream and validation records	executed
+SeqKit	2.11.0	18S upstream run record	executed
+USEARCH	12.0 [b1d935b]	18S upstream run record	executed; proprietary and not redistributed
+VSEARCH	2.30.3	upstream run record	executed
+R	4.5.2	saved run records	executed
+vegan	2.8-0	author-confirmed final execution version	executed
+permute	0.9-10	saved run records	executed
+ranger	0.18.0	RF run record	executed
+igraph	2.2.2	network run record	executed
+ANCOMBC	2.12.1	DA session record	executed
+DESeq2	1.50.2	DA session record	executed
+ALDEx2	1.42.0	DA session record	executed
+FAPROTAX	1.2.7	analysis contract	external database/script not redistributed
+DECIPHER/Biostrings/ape/phangorn	not captured	tree execution provenance	disclosed execution-time version gap; current versions are not substituted

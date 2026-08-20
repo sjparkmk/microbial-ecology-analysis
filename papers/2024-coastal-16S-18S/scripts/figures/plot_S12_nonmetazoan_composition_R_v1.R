@@ -20,7 +20,7 @@ file_arg <- grep("^--file=", script_arg, value = TRUE)
 if (!length(file_arg)) stop("Cannot determine the plotting-script path")
 script_file <- normalizePath(sub("^--file=", "", file_arg[[1]]), winslash = "/", mustWork = TRUE)
 pkg_dir <- normalizePath(file.path(dirname(script_file), ".."), winslash = "/", mustWork = TRUE)
-project_dir <- normalizePath("/your/data/", winslash = "/", mustWork = TRUE) # insert your path
+project_dir <- normalizePath("/user/link/path", winslash = "/", mustWork = TRUE) # insert your path
 
 source_cell <- file.path(
   project_dir, "revision", "re_analysis", "10_figure_source_data_v4", "source_data",

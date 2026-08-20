@@ -392,8 +392,13 @@ def find_rscript(explicit: str | None) -> Path:
     discovered = shutil.which("Rscript")
     if discovered:
         return Path(discovered).resolve()
-    require(False, "Rscript was not found on PATH; provide --rscript explicitly")
-    raise AssertionError("unreachable")
+    candidates = sorted(
+        list(Path("C:/Program Files/R").glob("R-*/bin/Rscript.exe"))
+        + list(Path("C:/Program Files/R").glob("R-*/bin/x64/Rscript.exe")),
+        reverse=True,
+    )
+    require(bool(candidates), "Rscript was not found; provide --rscript explicitly")
+    return candidates[0].resolve()
 
 
 def run_command(command: Sequence[str]) -> subprocess.CompletedProcess[str]:
@@ -1002,7 +1007,7 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--source-root", type=Path, default=project_root / "revision" / "re_analysis" / SOURCE_PACKAGE_ID)
     parser.add_argument("--output-root", type=Path, default=project_root / "revision" / "re_analysis" / PACKAGE_ID)
     parser.add_argument("--r-worker", type=Path, default=script.with_suffix(".R"))
-    parser.add_argument("--rscript", help="Explicit path to Rscript; otherwise Rscript is resolved from PATH")
+    parser.add_argument("--rscript", help="Explicit path to Rscript; otherwise PATH and C:/Program Files/R are searched")
     parser.add_argument("--depth", type=int, default=DEPTH, help="Frozen at 50000")
     parser.add_argument("--seed", type=int, default=SEED, help="Frozen at 1")
     parser.add_argument("--version", action="version", version=f"%(prog)s {VERSION}")

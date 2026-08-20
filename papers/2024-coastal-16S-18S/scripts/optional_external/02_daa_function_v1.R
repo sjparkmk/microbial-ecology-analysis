@@ -51,8 +51,8 @@ paths <- list(
   count18 = file.path(project_root, "revision/re_analysis/02_18s_unoise_pr2_v1/results/18s_asv_counts_pr2_analysis_v1.tsv"),
   tax18 = file.path(project_root, "revision/re_analysis/02_18s_unoise_pr2_v1/results/18s_taxonomy_pr2_primary_analysis_v1.tsv"),
   flags18 = file.path(project_root, "revision/re_analysis/02_18s_unoise_pr2_v1/qc/18s_asv_flags_ledger_v2.tsv"),
-  fap_db = "/your/data/FAPROTAX.txt", # insert your path
-  fap_upstream = "/your/data/collapse_table.py", # insert your path
+  fap_db = "/user/link/path/FAPROTAX.txt", # insert your path
+  fap_upstream = "/user/link/path/collapse_table.py", # insert your path
   fap_wrapper = file.path(script_dir, "faprotax_compat_runner_v1.py")
 )
 
