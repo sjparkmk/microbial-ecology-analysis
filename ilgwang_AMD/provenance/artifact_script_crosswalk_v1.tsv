@@ -1,0 +1,14 @@
+artifact	public_script	principal_input
+Figure 1	scripts/figures_tables/00_extract_figure1_original_v1.py	original Word-embedded image
+Figure 2	scripts/analysis/04_cpcoa_permdisp_primary.R; scripts/figures_tables/02_plot_active_non_tree_v1.py	output_data/seqtab_final_long.csv; input_data/sample_sheet.tsv; source_data/Fig2_CPCoA_source_A4_v1.tsv
+Figure 3	scripts/figures_tables/01_prepare_active_sources_v1.py; scripts/figures_tables/02_plot_active_non_tree_v1.py	output_data/seqtab_final_long.csv; output_data/taxa_silva144.csv
+Figure 4	scripts/analysis/09_build_fig4_fasta.py; scripts/analysis/10_build_fig4_tree.py; scripts/figures_tables/03_plot_active_circular_tree_v1.R	output_data/asv_taxonomy_with_bootstrap_ranked.csv; output_data/asv_tree_all663.newick; source_data/Fig4_circular_ASV_tree_annotation_A4_v1.tsv
+Supplementary Figure S1	scripts/analysis/03_alpha_diversity.R; scripts/figures_tables/02_plot_active_non_tree_v1.py	source_data/SFig1_AlphaDiversity_source_A4_v1.tsv
+Supplementary Figure S2	scripts/figures_tables/13_rarefy_beta_diversity_input_v1.R; scripts/figures_tables/15_plot_sfig2_rarefied_bray_v3.py	output_data/seqtab_final_long.csv; input_data/sample_sheet.tsv
+Supplementary Figure S3	scripts/figures_tables/12_plot_active_domain_composition_twopanel_v5.py	output_data/seqtab_final_long.csv; output_data/taxa_silva144.csv; input_data/sample_sheet.tsv
+Supplementary Figure S4	scripts/figures_tables/01_prepare_active_sources_v1.py; scripts/figures_tables/02_plot_active_non_tree_v1.py	source_data/SFig3_Phylum_Composition_display_A4_v1.tsv
+Supplementary Figures S5-S6	scripts/figures_tables/04_recompute_active_niche_v1.py	output_data/seqtab_final_long.csv; output_data/taxa_silva144.csv
+Supplementary Figure S7	scripts/figures_tables/04_recompute_active_niche_v1.py; scripts/figures_tables/05_redraw_active_overlap_v1.py	source_data/SFig7_ASV_overlap_regions_v4.tsv
+Supplementary Figure S11	scripts/figures_tables/01_prepare_active_sources_v1.py; scripts/figures_tables/02_plot_active_non_tree_v1.py	source_data/Fig4_Ferrovum_top15_source_A4_v1.tsv
+Supplementary Tables S1-S8	scripts/figures_tables/10_extract_active_tables_v2.py	Supplementary_Tables_S1-S9_active_v3.xlsx
+Supplementary Table S9	scripts/figures_tables/17_extract_tableS9_v3.py	Supplementary_Tables_S1-S9_active_v3.xlsx

@@ -1,0 +1,8 @@
+"sample","Group","Type_label","input","filtered","denoisedF","denoisedR","merged","nonchim","final_length_filtered","pct_retained_of_input"
+"1st_BFP","1st","AMD precipitate-associated biofilm",135001,125825,124817,124748,122825,117659,117603,87.1
+"1st_BFW1","1st","wall-attached biofilm",121777,112655,111678,111868,109440,101920,100138,82.2
+"1st_BFW2","1st","wall-attached biofilm",130081,120956,120109,120326,118736,112101,112054,86.1
+"2nd_BFP","2nd","AMD precipitate-associated biofilm",103679,96564,95795,95868,94441,88404,88397,85.3
+"2nd_BFW","2nd","wall-attached biofilm",119746,109478,108852,108943,107135,102536,102533,85.6
+"2nd_wt","2nd","water",123604,115150,114413,114536,113038,104362,104333,84.4
+"3rd_wt","3rd","water",110429,102684,102045,102191,101016,91863,91857,83.2

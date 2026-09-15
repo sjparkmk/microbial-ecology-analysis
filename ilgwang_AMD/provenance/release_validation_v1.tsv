@@ -1,0 +1,17 @@
+check	observed	expected	status
+main_figure_files	13	13	PASS
+supplementary_figure_files	32	32	PASS
+figure_legend_files	14	14	PASS
+table_tsv_files	9	9	PASS
+table_legend_files	10	10	PASS
+table_workbooks	1	1	PASS
+source_data_files	16	16	PASS
+input_data_files	2	2	PASS
+canonical_output_files	15	15	PASS
+public_scripts	19	19	PASS
+copied_file_hashes	all matched	all matched	PASS
+public_script_comments	0	0	PASS
+public_python_docstrings	0	0	PASS
+private_path_scan	0 hits	0 hits	PASS
+input_placeholder	/input/youre/data/	/input/youre/data/	PASS
+output_placeholder	/output/your/data	/output/your/data	PASS

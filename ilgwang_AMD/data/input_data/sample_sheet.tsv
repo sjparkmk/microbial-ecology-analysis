@@ -1,0 +1,8 @@
+seq_ID	analysis_name	Group	Type	Type_label
+IG-2P	1st_BFP	1st	P_biofilm	AMD precipitate-associated biofilm
+IG-2PW	1st_BFW1	1st	W_biofilm	wall-attached biofilm
+IG-W2	1st_BFW2	1st	W_biofilm	wall-attached biofilm
+IG-1P	2nd_BFP	2nd	P_biofilm	AMD precipitate-associated biofilm
+IG-W1	2nd_BFW	2nd	W_biofilm	wall-attached biofilm
+IG-WAT-1	2nd_wt	2nd	water	water
+IG-WAT-R	3rd_wt	3rd	water	water

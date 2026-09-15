@@ -1,0 +1,8 @@
+"sample","Archaea","Bacteria","total","pct_Archaea","pct_Bacteria","Group","Type_label"
+"1st_BFP",4347,113256,117603,3.7,96.3,"1st","AMD precipitate-associated biofilm"
+"1st_BFW1",368,99770,100138,0.37,99.63,"1st","wall-attached biofilm"
+"1st_BFW2",2076,109978,112054,1.85,98.15,"1st","wall-attached biofilm"
+"2nd_BFP",3668,84729,88397,4.15,95.85,"2nd","AMD precipitate-associated biofilm"
+"2nd_BFW",51916,50617,102533,50.63,49.37,"2nd","wall-attached biofilm"
+"2nd_wt",31257,73076,104333,29.96,70.04,"2nd","water"
+"3rd_wt",12682,79175,91857,13.81,86.19,"3rd","water"

@@ -1,0 +1,9 @@
+metric	value
+input	/input/youre/data/all_663_asvs.aligned.fasta
+output	/output/your/data/asv_tree_all663.newick
+sequences	663
+alignment_columns	286
+tree_tips	663
+distance_model	identity (p-distance / Hamming on full MSA)
+rooting	outgroup = ASV_1 (most abundant ASV, matching original script convention)
+negative_branch_lengths_clipped	0
