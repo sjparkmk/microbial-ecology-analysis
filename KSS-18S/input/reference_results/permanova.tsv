@@ -1,0 +1,3 @@
+family	factor	n	levels	pseudo_F	R2	p_value_exact	distinct_label_permutations	dispersion_F	dispersion_parametric_p	dispersion_permutation_p	dispersion_permutations	status	q_value_BH
+exposed_vs_submerged	AnalysisGroup	15	exposed,submerged	0.8091157680978	0.0585928731198736	0.933466533466534	5005	0.0735655340113975	0.790473509380902	0.7879	9999	primary_exact_permanova	0.933466533466534
+submerged_pH	pH_class	9	neutral,acid,weak_acid	1.14244005316882	0.275789157719951	0.0658730158730159	1260	0.140800346046969	0.871450601182804	0.889	9999	primary_exploratory_exact_permanova	0.131746031746032

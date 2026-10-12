@@ -1,0 +1,7 @@
+# Preserve exact source bytes, including historical CRLF, on every platform.
+* -text
+# Empty final TSV fields are meaningful data, not whitespace to trim.
+input/** whitespace=-blank-at-eol,-blank-at-eof
+scripts/** whitespace=cr-at-eol
+provenance/** whitespace=cr-at-eol
+*.md whitespace=cr-at-eol

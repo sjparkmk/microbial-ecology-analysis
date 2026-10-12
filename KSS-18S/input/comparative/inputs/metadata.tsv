@@ -1,0 +1,141 @@
+sample	source_sample	dataset	sample_type	substrate	exposure	site	region	season	cluster	project	latitude	longitude	pH	raw_eukaryote_reads
+ours:dbw	dbw	ours	land_sediment	sediment	exposed	Dongbaek dongan wetland	Jeju	unavailable	ours:dbw	ours			3.5	25798
+ours:gc	gc	ours	land_sediment	sand	submerged	Gapcheon	Main	unavailable	ours:gc	ours			6.75	32166
+ours:gkp	gkp	ours	land_sediment	sediment	submerged	Gikkumul	Jeju	unavailable	ours:gkp	ours			4.75	71206
+ours:gjs	gjs	ours	land_soil	soil	exposed	Gokjawal soil	Jeju	unavailable	ours:gjs	ours			4.7	34353
+ours:hmc	hmc	ours	land_soil	soil	exposed	heavy metal-contaminated	Main	unavailable	ours:hmc	ours			4.25	67850
+ours:hfs	hfs	ours	land_soil	soil	exposed	Halla forest soil	Jeju	unavailable	ours:hfs	ours			4.7	34616
+ours:hfp	hfp	ours	land_sediment	sediment	submerged	Halla forest pond	Jeju	unavailable	ours:hfp	ours			5.5	27862
+ours:hdp	hdp	ours	land_sediment	sand	submerged	Hadori pond	Jeju	unavailable	ours:hdp	ours			7.75	27951
+ours:hgp	hgp	ours	land_sediment	sediment	submerged	Hagari pond	Jeju	unavailable	ours:hgp	ours			5.75	29294
+ours:nsp	nsp	ours	land_sediment	sediment	submerged	Namsaengi pond	Jeju	unavailable	ours:nsp	ours			5.75	33612
+ours:ogp	ogp	ours	land_sediment	sediment	submerged	ongusu	Jeju	unavailable	ours:ogp	ours			5.25	29605
+ours:ssp	ssp	ours	land_sediment	sediment	submerged	soosanhan pond	Jeju	unavailable	ours:ssp	ours			4.75	65926
+ours:ssr	ssr	ours	land_sediment	sediment	exposed	susan resevoir	Jeju	unavailable	ours:ssr	ours			6.3	32821
+ours:swp	swp	ours	land_sediment	sediment	exposed	suwoli pond	Jeju	unavailable	ours:swp	ours			5.25	83247
+ours:dgw	dgw	ours	land_sediment	sediment	submerged	Youngeup (Dragond wetland)	Main	unavailable	ours:dgw	ours			4.29	44986
+d2024:DD_s_F1	DD_s_F1	d2024	marine_sediment	sediment	unavailable	Dokdo	Ocean	F	d2024:Dokdo	d2024			5.8	72928
+d2024:DD_s_F2	DD_s_F2	d2024	marine_sediment	sediment	unavailable	Dokdo	Ocean	F	d2024:Dokdo	d2024			5.8	60134
+d2024:DD_s_F3	DD_s_F3	d2024	marine_sediment	sediment	unavailable	Dokdo	Ocean	F	d2024:Dokdo	d2024			5.8	73091
+d2024:DD_s_S1	DD_s_S1	d2024	marine_sediment	sediment	unavailable	Dokdo	Ocean	S	d2024:Dokdo	d2024			5.8	76430
+d2024:DD_s_S2	DD_s_S2	d2024	marine_sediment	sediment	unavailable	Dokdo	Ocean	S	d2024:Dokdo	d2024			5.8	87588
+d2024:DD_s_S3	DD_s_S3	d2024	marine_sediment	sediment	unavailable	Dokdo	Ocean	S	d2024:Dokdo	d2024			5.8	82582
+d2024:DD_w_F1	DD_w_F1	d2024	marine_water	water	unavailable	Dokdo	Ocean	F	d2024:Dokdo	d2024			5.8	61513
+d2024:DD_w_F2	DD_w_F2	d2024	marine_water	water	unavailable	Dokdo	Ocean	F	d2024:Dokdo	d2024			5.8	66637
+d2024:DD_w_F3	DD_w_F3	d2024	marine_water	water	unavailable	Dokdo	Ocean	F	d2024:Dokdo	d2024			5.8	59485
+d2024:GS_s_F1	GS_s_F1	d2024	marine_sediment	sediment	unavailable	Goseong	Tidal	F	d2024:Goseong	d2024			8.9	57535
+d2024:GS_s_F2	GS_s_F2	d2024	marine_sediment	sediment	unavailable	Goseong	Tidal	F	d2024:Goseong	d2024			8.9	62935
+d2024:GS_s_F3	GS_s_F3	d2024	marine_sediment	sediment	unavailable	Goseong	Tidal	F	d2024:Goseong	d2024			8.9	63832
+d2024:GS_s_S1	GS_s_S1	d2024	marine_sediment	sediment	unavailable	Goseong	Tidal	S	d2024:Goseong	d2024			8.9	82025
+d2024:GS_s_S2	GS_s_S2	d2024	marine_sediment	sediment	unavailable	Goseong	Tidal	S	d2024:Goseong	d2024			8.9	67285
+d2024:GS_s_S3	GS_s_S3	d2024	marine_sediment	sediment	unavailable	Goseong	Tidal	S	d2024:Goseong	d2024			8.9	74785
+d2024:GS_w_F1	GS_w_F1	d2024	marine_water	water	unavailable	Goseong	Tidal	F	d2024:Goseong	d2024			8.9	54691
+d2024:GS_w_F2	GS_w_F2	d2024	marine_water	water	unavailable	Goseong	Tidal	F	d2024:Goseong	d2024			8.9	66465
+d2024:GS_w_F3	GS_w_F3	d2024	marine_water	water	unavailable	Goseong	Tidal	F	d2024:Goseong	d2024			8.9	62963
+d2024:GS_w_S1	GS_w_S1	d2024	marine_water	water	unavailable	Goseong	Tidal	S	d2024:Goseong	d2024			8.9	54350
+d2024:GS_w_S2	GS_w_S2	d2024	marine_water	water	unavailable	Goseong	Tidal	S	d2024:Goseong	d2024			8.9	51472
+d2024:GS_w_S3	GS_w_S3	d2024	marine_water	water	unavailable	Goseong	Tidal	S	d2024:Goseong	d2024			8.9	58954
+d2024:PH_s_F1	PH_s_F1	d2024	marine_sediment	sediment	unavailable	Pohang	Tidal	F	d2024:Pohang	d2024			9.8	79868
+d2024:PH_s_F2	PH_s_F2	d2024	marine_sediment	sediment	unavailable	Pohang	Tidal	F	d2024:Pohang	d2024			9.8	70970
+d2024:PH_s_F3	PH_s_F3	d2024	marine_sediment	sediment	unavailable	Pohang	Tidal	F	d2024:Pohang	d2024			9.8	75932
+d2024:PH_s_S1	PH_s_S1	d2024	marine_sediment	sediment	unavailable	Pohang	Tidal	S	d2024:Pohang	d2024			9.8	78384
+d2024:PH_s_S2	PH_s_S2	d2024	marine_sediment	sediment	unavailable	Pohang	Tidal	S	d2024:Pohang	d2024			9.8	82549
+d2024:PH_s_S3	PH_s_S3	d2024	marine_sediment	sediment	unavailable	Pohang	Tidal	S	d2024:Pohang	d2024			9.8	82272
+d2024:PH_w_F1	PH_w_F1	d2024	marine_water	water	unavailable	Pohang	Tidal	F	d2024:Pohang	d2024			9.8	55811
+d2024:PH_w_F2	PH_w_F2	d2024	marine_water	water	unavailable	Pohang	Tidal	F	d2024:Pohang	d2024			9.8	56372
+d2024:PH_w_F3	PH_w_F3	d2024	marine_water	water	unavailable	Pohang	Tidal	F	d2024:Pohang	d2024			9.8	60518
+d2024:PH_w_S1	PH_w_S1	d2024	marine_water	water	unavailable	Pohang	Tidal	S	d2024:Pohang	d2024			9.8	61514
+d2024:PH_w_S2	PH_w_S2	d2024	marine_water	water	unavailable	Pohang	Tidal	S	d2024:Pohang	d2024			9.8	66013
+d2024:PH_w_S3	PH_w_S3	d2024	marine_water	water	unavailable	Pohang	Tidal	S	d2024:Pohang	d2024			9.8	61463
+d2024:PS_s_F1	PS_s_F1	d2024	marine_sediment	sediment	unavailable	Pyoseon	Island	F	d2024:Pyoseon	d2024			9.5	89044
+d2024:PS_s_F2	PS_s_F2	d2024	marine_sediment	sediment	unavailable	Pyoseon	Island	F	d2024:Pyoseon	d2024			9.5	84768
+d2024:PS_s_F3	PS_s_F3	d2024	marine_sediment	sediment	unavailable	Pyoseon	Island	F	d2024:Pyoseon	d2024			9.5	78750
+d2024:PS_s_S1	PS_s_S1	d2024	marine_sediment	sediment	unavailable	Pyoseon	Island	S	d2024:Pyoseon	d2024			9.5	77622
+d2024:PS_s_S2	PS_s_S2	d2024	marine_sediment	sediment	unavailable	Pyoseon	Island	S	d2024:Pyoseon	d2024			9.5	68438
+d2024:PS_s_S3	PS_s_S3	d2024	marine_sediment	sediment	unavailable	Pyoseon	Island	S	d2024:Pyoseon	d2024			9.5	85706
+d2024:PS_w_F1	PS_w_F1	d2024	marine_water	water	unavailable	Pyoseon	Island	F	d2024:Pyoseon	d2024			9.5	90335
+d2024:PS_w_F2	PS_w_F2	d2024	marine_water	water	unavailable	Pyoseon	Island	F	d2024:Pyoseon	d2024			9.5	83892
+d2024:PS_w_F3	PS_w_F3	d2024	marine_water	water	unavailable	Pyoseon	Island	F	d2024:Pyoseon	d2024			9.5	83262
+d2024:PS_w_S1	PS_w_S1	d2024	marine_water	water	unavailable	Pyoseon	Island	S	d2024:Pyoseon	d2024			9.5	89404
+d2024:PS_w_S2	PS_w_S2	d2024	marine_water	water	unavailable	Pyoseon	Island	S	d2024:Pyoseon	d2024			9.5	101724
+d2024:PS_w_S3	PS_w_S3	d2024	marine_water	water	unavailable	Pyoseon	Island	S	d2024:Pyoseon	d2024			9.5	111091
+d2024:SH_s_F1	SH_s_F1	d2024	marine_sediment	sediment	unavailable	Sehwa	Island	F	d2024:Sehwa	d2024			9.4	83503
+d2024:SH_s_F2	SH_s_F2	d2024	marine_sediment	sediment	unavailable	Sehwa	Island	F	d2024:Sehwa	d2024			9.4	61576
+d2024:SH_s_F3	SH_s_F3	d2024	marine_sediment	sediment	unavailable	Sehwa	Island	F	d2024:Sehwa	d2024			9.4	72835
+d2024:SH_s_S1	SH_s_S1	d2024	marine_sediment	sediment	unavailable	Sehwa	Island	S	d2024:Sehwa	d2024			9.4	69702
+d2024:SH_s_S2	SH_s_S2	d2024	marine_sediment	sediment	unavailable	Sehwa	Island	S	d2024:Sehwa	d2024			9.4	79794
+d2024:SH_s_S3	SH_s_S3	d2024	marine_sediment	sediment	unavailable	Sehwa	Island	S	d2024:Sehwa	d2024			9.4	74315
+d2024:SH_w_F1	SH_w_F1	d2024	marine_water	water	unavailable	Sehwa	Island	F	d2024:Sehwa	d2024			9.4	103627
+d2024:SH_w_F2	SH_w_F2	d2024	marine_water	water	unavailable	Sehwa	Island	F	d2024:Sehwa	d2024			9.4	82351
+d2024:SH_w_F3	SH_w_F3	d2024	marine_water	water	unavailable	Sehwa	Island	F	d2024:Sehwa	d2024			9.4	79617
+d2024:SH_w_S1	SH_w_S1	d2024	marine_water	water	unavailable	Sehwa	Island	S	d2024:Sehwa	d2024			9.4	126162
+d2024:SH_w_S2	SH_w_S2	d2024	marine_water	water	unavailable	Sehwa	Island	S	d2024:Sehwa	d2024			9.4	103338
+d2024:SH_w_S3	SH_w_S3	d2024	marine_water	water	unavailable	Sehwa	Island	S	d2024:Sehwa	d2024			9.4	119399
+d2024:SS_s_F1	SS_s_F1	d2024	marine_sediment	sediment	unavailable	Seongsan	Island	F	d2024:Seongsan	d2024			9.0	87151
+d2024:SS_s_F2	SS_s_F2	d2024	marine_sediment	sediment	unavailable	Seongsan	Island	F	d2024:Seongsan	d2024			9.0	79724
+d2024:SS_s_F3	SS_s_F3	d2024	marine_sediment	sediment	unavailable	Seongsan	Island	F	d2024:Seongsan	d2024			9.0	84282
+d2024:SS_TS_S1	SS_TS_S1	d2024	marine_sediment	sediment	unavailable	Seongsan	Island	S	d2024:Seongsan	d2024			9.0	71907
+d2024:SS_TS_S2	SS_TS_S2	d2024	marine_sediment	sediment	unavailable	Seongsan	Island	S	d2024:Seongsan	d2024			9.0	76590
+d2024:SS_TS_S3	SS_TS_S3	d2024	marine_sediment	sediment	unavailable	Seongsan	Island	S	d2024:Seongsan	d2024			9.0	70868
+d2024:SS_w_F1	SS_w_F1	d2024	marine_water	water	unavailable	Seongsan	Island	F	d2024:Seongsan	d2024			9.0	106300
+d2024:SS_w_F2	SS_w_F2	d2024	marine_water	water	unavailable	Seongsan	Island	F	d2024:Seongsan	d2024			9.0	82558
+d2024:SS_w_F3	SS_w_F3	d2024	marine_water	water	unavailable	Seongsan	Island	F	d2024:Seongsan	d2024			9.0	76848
+d2024:SS_w_S1	SS_w_S1	d2024	marine_water	water	unavailable	Seongsan	Island	S	d2024:Seongsan	d2024			9.0	88723
+d2024:SS_w_S2	SS_w_S2	d2024	marine_water	water	unavailable	Seongsan	Island	S	d2024:Seongsan	d2024			9.0	105371
+d2024:SS_w_S3	SS_w_S3	d2024	marine_water	water	unavailable	Seongsan	Island	S	d2024:Seongsan	d2024			9.0	112072
+d2024:ULD_s_F1	ULD_s_F1	d2024	marine_sediment	sediment	unavailable	Ulleungdo	Ocean	F	d2024:Ulleungdo	d2024			9.0	66933
+d2024:ULD_s_F2	ULD_s_F2	d2024	marine_sediment	sediment	unavailable	Ulleungdo	Ocean	F	d2024:Ulleungdo	d2024			9.0	60773
+d2024:ULD_s_F3	ULD_s_F3	d2024	marine_sediment	sediment	unavailable	Ulleungdo	Ocean	F	d2024:Ulleungdo	d2024			9.0	63939
+d2024:ULD_w_F1	ULD_w_F1	d2024	marine_water	water	unavailable	Ulleungdo	Ocean	F	d2024:Ulleungdo	d2024			9.0	65838
+d2024:ULD_w_F2	ULD_w_F2	d2024	marine_water	water	unavailable	Ulleungdo	Ocean	F	d2024:Ulleungdo	d2024			9.0	62144
+d2024:ULD_w_F3	ULD_w_F3	d2024	marine_water	water	unavailable	Ulleungdo	Ocean	F	d2024:Ulleungdo	d2024			9.0	65677
+eukbank:SRR23272761_SRR23272838	SRR23272761_SRR23272838	eukbank	land_soil	soil	unavailable	SAMN32957918	unavailable	unavailable	eukbank:PRJNA317860	PRJNA317860	10.42430106	-84.00810531		1245952
+eukbank:ERR2221441	ERR2221441	eukbank	land_soil	soil	unavailable	SAMEA104430066	unavailable	unavailable	eukbank:PRJEB23943	PRJEB23943	-1.942861	102.581278		41019
+eukbank:ERR2215458	ERR2215458	eukbank	land_soil	soil	unavailable	SAMEA104419713	unavailable	unavailable	eukbank:PRJEB23800	PRJEB23800	54.54867	8.82168		21423
+eukbank:ERR2232360	ERR2232360	eukbank	land_soil	soil	unavailable	SAMEA104448018	unavailable	unavailable	eukbank:PRJEB24049	PRJEB24049	57.147611	-111.544		1013830
+eukbank:ERR2322328	ERR2322328	eukbank	land_soil	soil	unavailable	SAMEA104606482	unavailable	unavailable	eukbank:PRJEB25117	PRJEB25117	43.29	124.47		100425
+eukbank:ERR2233516	ERR2233516	eukbank	land_soil	soil	unavailable	SAMEA104450832	unavailable	unavailable	eukbank:PRJEB24160	PRJEB24160	28.4666666666667	-16.25		270330
+eukbank:ERR2322346	ERR2322346	eukbank	land_soil	soil	unavailable	SAMEA104606500	unavailable	unavailable	eukbank:PRJEB25117	PRJEB25117	28.54	111.29		100697
+eukbank:ERR2233106	ERR2233106	eukbank	land_soil	soil	unavailable	SAMEA104448810	unavailable	unavailable	eukbank:PRJEB24091	PRJEB24091	40.7513889	-3.881666667		166599
+eukbank:ERR2228705	ERR2228705	eukbank	land_soil	soil	unavailable	SAMEA104446185	unavailable	unavailable	eukbank:PRJEB23549	PRJEB23549	-3.98029	-79.0838		82473
+eukbank:ERR2233182	ERR2233182	eukbank	land_soil	soil	unavailable	SAMEA104450115	unavailable	unavailable	eukbank:PRJEB24098	PRJEB24098	47.0	6.9		64899
+eukbank:ERR2232377	ERR2232377	eukbank	land_sediment	sediment	unavailable	SAMEA104450885	unavailable	unavailable	eukbank:PRJEB24162	PRJEB24162	57.01206	-111.60934		1027985
+eukbank:SRR4734653	SRR4734653	eukbank	land_sediment	sediment	unavailable	SAMN05905401	unavailable	unavailable	eukbank:PRJNA349791	PRJNA349791	-34.699	-72.011		169226
+eukbank:ERR2231787	ERR2231787	eukbank	land_sediment	sediment	unavailable	SAMEA104450675	unavailable	unavailable	eukbank:PRJEB24128	PRJEB24128	51.1457	55.00192		60012
+eukbank:ERR2234427	ERR2234427	eukbank	land_sediment	sediment	unavailable	SAMEA104452633	unavailable	unavailable	eukbank:PRJEB24184	PRJEB24184	10.9833333333333	-85.4333333333334		229988
+eukbank:SRR4734646	SRR4734646	eukbank	land_sediment	sediment	unavailable	SAMN05905404	unavailable	unavailable	eukbank:PRJNA349791	PRJNA349791	38.845	1.396		213963
+eukbank:ERR2232272	ERR2232272	eukbank	land_sediment	sediment	unavailable	SAMEA104450802	unavailable	unavailable	eukbank:PRJEB24144	PRJEB24144	59.845083	-112.253783		576576
+eukbank:ERR2231793	ERR2231793	eukbank	land_sediment	sediment	unavailable	SAMEA104450681	unavailable	unavailable	eukbank:PRJEB24128	PRJEB24128	51.15315	54.99859		117346
+eukbank:ERR2300217	ERR2300217	eukbank	land_sediment	sediment	unavailable	SAMEA104589286	unavailable	unavailable	eukbank:PRJEB24153	PRJEB24153	57.012005	-111.620781		56351
+eukbank:ERR2232274	ERR2232274	eukbank	land_sediment	sediment	unavailable	SAMEA104450805	unavailable	unavailable	eukbank:PRJEB24144	PRJEB24144	59.845083	-112.253783		313796
+eukbank:ERR2300225	ERR2300225	eukbank	land_sediment	sediment	unavailable	SAMEA104589294	unavailable	unavailable	eukbank:PRJEB24153	PRJEB24153	57.012005	-111.620781		54429
+eukbank:ERR10975874	ERR10975874	eukbank	land_freshwater	freshwater	unavailable	SAMEA112751118	unavailable	unavailable	eukbank:PRJEB58370	PRJEB58370	37.0480972	-3.3683611		1299953
+eukbank:SRR2770822	SRR2770822	eukbank	land_freshwater	freshwater	unavailable	SAMN04193678	unavailable	unavailable	eukbank:PRJNA299108	PRJNA299108	-18.11	-69.15		159634
+eukbank:SRR1026863	SRR1026863	eukbank	land_freshwater	freshwater	unavailable	SAMN02384764	unavailable	unavailable	eukbank:PRJNA224766	PRJNA224766	27.9427777777778	86.7944444444444		23562
+eukbank:SRR2799342	SRR2799342	eukbank	land_freshwater	freshwater	unavailable	SAMN04193687	unavailable	unavailable	eukbank:PRJNA299108	PRJNA299108	6.53	-39.53		76648
+eukbank:ERR2247279	ERR2247279	eukbank	land_freshwater	freshwater	unavailable	SAMEA104469904	unavailable	unavailable	eukbank:PRJEB24415	PRJEB24415	55.55061	109.78538		14997
+eukbank:ERR10975871	ERR10975871	eukbank	land_freshwater	freshwater	unavailable	SAMEA112751115	unavailable	unavailable	eukbank:PRJEB58370	PRJEB58370	50.7205983	18.107185		107219
+eukbank:SRR1026858	SRR1026858	eukbank	land_freshwater	freshwater	unavailable	SAMN02384762	unavailable	unavailable	eukbank:PRJNA224766	PRJNA224766	47.0708333333333	10.2208333333333		34409
+eukbank:ERR2225608	ERR2225608	eukbank	land_freshwater	freshwater	unavailable	SAMEA104429076	unavailable	unavailable	eukbank:PRJEB23911	PRJEB23911	42.1205472222222	-6.72531666666667		214975
+eukbank:ERR2247290	ERR2247290	eukbank	land_freshwater	freshwater	unavailable	SAMEA104469889	unavailable	unavailable	eukbank:PRJEB24415	PRJEB24415	52.189942	106.06909		58340
+eukbank:ERR10968005	ERR10968005	eukbank	land_freshwater	freshwater	unavailable	SAMEA112736358	unavailable	unavailable	eukbank:PRJEB58373	PRJEB58373	47.195	10.888		137669
+eukbank:ERR10234934	ERR10234934	eukbank	marine_water	water	unavailable	SAMEA2621698	unavailable	unavailable	eukbank:PRJEB6610	PRJEB6610	-57.7338	-67.1084		1378180
+eukbank:ERR10235046	ERR10235046	eukbank	marine_water	water	unavailable	SAMEA4397656	unavailable	unavailable	eukbank:PRJEB9737	PRJEB9737	77.9028	117.1545		984907
+eukbank:SRR6401495	SRR6401495	eukbank	marine_water	water	unavailable	SAMN08219302	unavailable	unavailable	eukbank:PRJNA385736	PRJNA385736	-19.154109	146.6426		189842
+eukbank:ERR10234956	ERR10234956	eukbank	marine_water	water	unavailable	SAMEA2731170	unavailable	unavailable	eukbank:PRJEB6610	PRJEB6610	-13.0619	46.9692		888308
+eukbank:ERR2223315	ERR2223315	eukbank	marine_water	water	unavailable	SAMEA104432503	unavailable	unavailable	eukbank:PRJEB23913	PRJEB23913	13.804	-115.756		29625
+eukbank:ERR2223225	ERR2223225	eukbank	marine_water	water	unavailable	SAMEA104432413	unavailable	unavailable	eukbank:PRJEB23913	PRJEB23913	16.164	-26.026		210167
+eukbank:SRR6471312	SRR6471312	eukbank	marine_water	water	unavailable	SAMN08363775	unavailable	unavailable	eukbank:PRJNA385736	PRJNA385736	-63.129667	87.259917		155794
+eukbank:ERR2231767	ERR2231767	eukbank	marine_water	water	unavailable	SAMEA104450697	unavailable	unavailable	eukbank:PRJEB24138	PRJEB24138	27.7886	126.906		51278
+eukbank:ERR2220218	ERR2220218	eukbank	marine_water	water	unavailable	SAMEA104422550	unavailable	unavailable	eukbank:PRJEB23771	PRJEB23771	6.992166667	-164.3716667		75922
+eukbank:ERR10028101	ERR10028101	eukbank	marine_water	water	unavailable	SAMEA110460886	unavailable	unavailable	eukbank:PRJEB55152	PRJEB55152	43.16666667	28.83333333		1151360
+eukbank:SRR5805426	SRR5805426	eukbank	marine_sediment	sediment	unavailable	SAMN07314048	unavailable	unavailable	eukbank:PRJNA393049	PRJNA393049	22.75	-158.0		726264
+eukbank:ERR10028090	ERR10028090	eukbank	marine_sediment	sediment	unavailable	SAMEA110460868	unavailable	unavailable	eukbank:PRJEB55152	PRJEB55152	40.8	14.25		412314
+eukbank:SRR6401516	SRR6401516	eukbank	marine_sediment	sediment	unavailable	SAMN08219469	unavailable	unavailable	eukbank:PRJNA385736	PRJNA385736	-31.86344	115.7076		115442
+eukbank:SRR5753750	SRR5753750	eukbank	marine_sediment	sediment	unavailable	SAMN07274334	unavailable	unavailable	eukbank:PRJNA391741	PRJNA391741	27.0119	-111.4142		600427
+eukbank:SRR6401328	SRR6401328	eukbank	marine_sediment	sediment	unavailable	SAMN08219295	unavailable	unavailable	eukbank:PRJNA385736	PRJNA385736	-18.574387	146.496432		86835
+eukbank:ERR2212127	ERR2212127	eukbank	marine_sediment	sediment	unavailable	SAMEA104414484	unavailable	unavailable	eukbank:PRJEB23641	PRJEB23641	67.5328166666667	15.3877		67390
+eukbank:ERR861915	ERR861915	eukbank	marine_sediment	sediment	unavailable	SAMEA3354489	unavailable	unavailable	eukbank:PRJEB9133	PRJEB9133	59.25	10.71		22442
+eukbank:ERR2212235	ERR2212235	eukbank	marine_sediment	sediment	unavailable	SAMEA104414592	unavailable	unavailable	eukbank:PRJEB23641	PRJEB23641	62.8084	6.96761666666667		63514
+eukbank:ERR10028096	ERR10028096	eukbank	marine_sediment	sediment	unavailable	SAMEA110460874	unavailable	unavailable	eukbank:PRJEB55152	PRJEB55152	59.26666667	10.71666667		542574
+eukbank:ERR861809	ERR861809	eukbank	marine_sediment	sediment	unavailable	SAMEA3354383	unavailable	unavailable	eukbank:PRJEB9133	PRJEB9133	40.81	14.25		31719

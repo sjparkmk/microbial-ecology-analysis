@@ -1,0 +1,314 @@
+[
+  {
+    "path": "input/kss/inputs/otutab_raw_corrected.tsv",
+    "source_id": "otutab_raw_corrected.tsv",
+    "source_sha256": "92f070e7ba2daf3fbbb9a32e80f83c00698468395703d97cc89b3d04aa516623",
+    "release_sha256": "6a0283202e033b9f13e0ebb900b7956481c5369c1d7e8f9f3ad03f40364459d8",
+    "bytes": 215587,
+    "change": "exact 15-study-column projection; excluded context library; counts unchanged"
+  },
+  {
+    "path": "input/kss/inputs/otutab_rare_20000.tsv",
+    "source_id": "otutab_rare_20000.tsv",
+    "source_sha256": "e6a6f45884d00673525fe836cd91cad7b77698d7c920351253838354862486e6",
+    "release_sha256": "f59a78f52f112abfc17bd23833a3bc9ce98d0e71f7e4e681a422abaffe1a71aa",
+    "bytes": 213661,
+    "change": "exact 15-study-column projection; excluded context library; counts unchanged"
+  },
+  {
+    "path": "input/kss/inputs/taxonomy_pr2v511.tsv",
+    "source_id": "taxonomy_pr2v511.tsv",
+    "source_sha256": "87e0ee4d1b1b5e3916e4c86d7bf69c0451ea5d4214e1832357f5b8567f4b0397",
+    "release_sha256": "87e0ee4d1b1b5e3916e4c86d7bf69c0451ea5d4214e1832357f5b8567f4b0397",
+    "bytes": 735381,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/kss/inputs/metadata_analysis.tsv",
+    "source_id": "metadata_analysis.tsv",
+    "source_sha256": "b23c9fe34de63a8c7ba38f2efa70f42787529e91942783cbf9b070b593fe0e46",
+    "release_sha256": "cbfa2496230edc4f8988a04ba7e1712215ef9036efa84cec67a37fd4d603ca08",
+    "bytes": 1183,
+    "change": "exact 15-study-row projection; excluded context-library metadata; retained values unchanged"
+  },
+  {
+    "path": "input/kss/metadata_analysis_current.tsv",
+    "source_id": "metadata_analysis.tsv",
+    "source_sha256": "b23c9fe34de63a8c7ba38f2efa70f42787529e91942783cbf9b070b593fe0e46",
+    "release_sha256": "cbfa2496230edc4f8988a04ba7e1712215ef9036efa84cec67a37fd4d603ca08",
+    "bytes": 1183,
+    "change": "exact 15-study-row projection; excluded context-library metadata; retained values unchanged"
+  },
+  {
+    "path": "input/kss/figure_source_data/Figure_3/panel_a_asv_abundance_prevalence.tsv",
+    "source_id": "panel_a_asv_abundance_prevalence.tsv",
+    "source_sha256": "a2001a17fa2dadbadf5adc3cad74f66feba2e780ca7625aec4b3bf26061a2217",
+    "release_sha256": "a2001a17fa2dadbadf5adc3cad74f66feba2e780ca7625aec4b3bf26061a2217",
+    "bytes": 823972,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/d2024/subsets/ALL_EUK/asv_table.tsv",
+    "source_id": "asv_table.tsv",
+    "source_sha256": "1cd1ad49a95888d23beec5cb6f67cdd5d96fa51315138cb7343da3e5e4c7a30f",
+    "release_sha256": "1cd1ad49a95888d23beec5cb6f67cdd5d96fa51315138cb7343da3e5e4c7a30f",
+    "bytes": 3958687,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/d2024/subsets/ALL_EUK/taxonomy.tsv",
+    "source_id": "taxonomy.tsv",
+    "source_sha256": "65c02b2a59401328d4825a2169ae77e633331610af23e8236f887747f58c3d8e",
+    "release_sha256": "65c02b2a59401328d4825a2169ae77e633331610af23e8236f887747f58c3d8e",
+    "bytes": 3296497,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/d2024/subsets/metadata_samples.tsv",
+    "source_id": "metadata_samples.tsv",
+    "source_sha256": "9b4a7edee783e0892caaa3a97969b8bd419e8fd454e340b44fdd3d9c62917b80",
+    "release_sha256": "9b4a7edee783e0892caaa3a97969b8bd419e8fd454e340b44fdd3d9c62917b80",
+    "bytes": 8114,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/d2024/d2024_selected_samples.tsv",
+    "source_id": "d2024_selected_samples.tsv",
+    "source_sha256": "dc06d4d39c5d1054a46ea80e6c83f7598213fd292f2a9e5473f5984b920b9caa",
+    "release_sha256": "dc06d4d39c5d1054a46ea80e6c83f7598213fd292f2a9e5473f5984b920b9caa",
+    "bytes": 8114,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/eukbank/subsets/ALL_EUK/asv_table.tsv",
+    "source_id": "asv_table.tsv",
+    "source_sha256": "b03540d194cb020980dc7d64dabff30cc52e2a41cd344b6afa5940a4697abfdf",
+    "release_sha256": "b03540d194cb020980dc7d64dabff30cc52e2a41cd344b6afa5940a4697abfdf",
+    "bytes": 5697640,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/eukbank/subsets/ALL_EUK/taxonomy.tsv",
+    "source_id": "taxonomy.tsv",
+    "source_sha256": "ae884b12ad7ff664ce2d897249c945de52dc3d71ce7b5656e2b4743381db1896",
+    "release_sha256": "ae884b12ad7ff664ce2d897249c945de52dc3d71ce7b5656e2b4743381db1896",
+    "bytes": 6708653,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/eukbank/subsets/metadata_samples.tsv",
+    "source_id": "metadata_samples.tsv",
+    "source_sha256": "431c67b80514ad2a352341df7b2a70daf6f9522e5b4bfc3c89f66d664bd737d1",
+    "release_sha256": "431c67b80514ad2a352341df7b2a70daf6f9522e5b4bfc3c89f66d664bd737d1",
+    "bytes": 13646,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/eukbank/eukbank_selected_samples.tsv",
+    "source_id": "eukbank_selected_samples.tsv",
+    "source_sha256": "2b4d99ecf741b8858ace2f950830302ac581f4514839725147d32c894818e879",
+    "release_sha256": "2b4d99ecf741b8858ace2f950830302ac581f4514839725147d32c894818e879",
+    "bytes": 13595,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/inputs/counts_Genus.tsv",
+    "source_id": "counts_Genus.tsv",
+    "source_sha256": "740b11d148cc4d35e8856bb7bbd03bfe06511ef1011e72ca4bce8bd86419a357",
+    "release_sha256": "740b11d148cc4d35e8856bb7bbd03bfe06511ef1011e72ca4bce8bd86419a357",
+    "bytes": 1413097,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/inputs/counts_Family.tsv",
+    "source_id": "counts_Family.tsv",
+    "source_sha256": "e316c890a6d8c9d4e5b4228658525d0db515c1f56acc67964241c867d6f97b2d",
+    "release_sha256": "e316c890a6d8c9d4e5b4228658525d0db515c1f56acc67964241c867d6f97b2d",
+    "bytes": 451729,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/inputs/metadata.tsv",
+    "source_id": "metadata.tsv",
+    "source_sha256": "453bc76cc745edb7412bcc0efd47bb063844f187499ee55f98f3edcb5e4dc638",
+    "release_sha256": "453bc76cc745edb7412bcc0efd47bb063844f187499ee55f98f3edcb5e4dc638",
+    "bytes": 18435,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/inputs/ours_ASV_counts.tsv",
+    "source_id": "ours_ASV_counts.tsv",
+    "source_sha256": "287d0f6ca9d371394c501e4e39dc2a17cfae39de6c02283b83cdd7c32817fecc",
+    "release_sha256": "287d0f6ca9d371394c501e4e39dc2a17cfae39de6c02283b83cdd7c32817fecc",
+    "bytes": 199631,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/inputs/ours_metadata.tsv",
+    "source_id": "ours_metadata.tsv",
+    "source_sha256": "1f4dfb0e461d5ad02b057f0fd9fc37c3a9b67a03450385229aab36b1da215c07",
+    "release_sha256": "1f4dfb0e461d5ad02b057f0fd9fc37c3a9b67a03450385229aab36b1da215c07",
+    "bytes": 1742,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/inputs/ours_taxonomy.tsv",
+    "source_id": "ours_taxonomy.tsv",
+    "source_sha256": "87e0ee4d1b1b5e3916e4c86d7bf69c0451ea5d4214e1832357f5b8567f4b0397",
+    "release_sha256": "87e0ee4d1b1b5e3916e4c86d7bf69c0451ea5d4214e1832357f5b8567f4b0397",
+    "bytes": 735381,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/inputs/features_Genus.tsv",
+    "source_id": "features_Genus.tsv",
+    "source_sha256": "ce1677ea5a42bba3f74588f2d04e5a5411d8f852674bc13172f165d3cfd6e538",
+    "release_sha256": "ce1677ea5a42bba3f74588f2d04e5a5411d8f852674bc13172f165d3cfd6e538",
+    "bytes": 418152,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/inputs/features_Family.tsv",
+    "source_id": "features_Family.tsv",
+    "source_sha256": "04cc1dcdb9a75446a0bce1e5b4094f0ead93405061e184211d16adb66246dd7c",
+    "release_sha256": "04cc1dcdb9a75446a0bce1e5b4094f0ead93405061e184211d16adb66246dd7c",
+    "bytes": 124382,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/inputs/assignment_coverage.tsv",
+    "source_id": "assignment_coverage.tsv",
+    "source_sha256": "6d9a4e18ce0309d170046a7c402879043d8350f1964b14f2f72f3d6cadc83b83",
+    "release_sha256": "6d9a4e18ce0309d170046a7c402879043d8350f1964b14f2f72f3d6cadc83b83",
+    "bytes": 18377,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/community/Genus_bray_distances.tsv",
+    "source_id": "Genus_bray_distances.tsv",
+    "source_sha256": "420f9dcb2ba3d8f58762243020d6fd335a6e4156aa0ac4b5adfecdb508302954",
+    "release_sha256": "420f9dcb2ba3d8f58762243020d6fd335a6e4156aa0ac4b5adfecdb508302954",
+    "bytes": 349588,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/comparative/community/Family_bray_distances.tsv",
+    "source_id": "Family_bray_distances.tsv",
+    "source_sha256": "54a24a26394c55808db8895a0c91ae0517424f4f11951880f214a4dd7ccf6cf7",
+    "release_sha256": "54a24a26394c55808db8895a0c91ae0517424f4f11951880f214a4dd7ccf6cf7",
+    "bytes": 352626,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/reference_results/alpha_diversity_20000.tsv",
+    "source_id": "alpha_diversity_20000.tsv",
+    "source_sha256": "f1a9cd35bae990fed083560df4e5f984c682ab9fe2db9d27e2f9e73bd7a33a58",
+    "release_sha256": "f1a9cd35bae990fed083560df4e5f984c682ab9fe2db9d27e2f9e73bd7a33a58",
+    "bytes": 2221,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/reference_results/alpha_diversity_tests_20000.tsv",
+    "source_id": "alpha_diversity_tests_20000.tsv",
+    "source_sha256": "f829eb32e4028df32905e3bcb2daf598403ef006da87aad26c73943b470df755",
+    "release_sha256": "f829eb32e4028df32905e3bcb2daf598403ef006da87aad26c73943b470df755",
+    "bytes": 5974,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/reference_results/permanova.tsv",
+    "source_id": "permanova.tsv",
+    "source_sha256": "c0aa61f17b1949c692099eaea3afb6e72a421e8e43df3e0cdaf29a2728272e3a",
+    "release_sha256": "c0aa61f17b1949c692099eaea3afb6e72a421e8e43df3e0cdaf29a2728272e3a",
+    "bytes": 593,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "input/reference_results/merged_planned_clustered_candidate_support.tsv",
+    "source_id": "merged_planned_clustered_candidate_support.tsv",
+    "source_sha256": "c0974c56f7dd99935e9ba9a5c0d30db602af6f899f43cfb96424edcaa23b8ed9",
+    "release_sha256": "c0974c56f7dd99935e9ba9a5c0d30db602af6f899f43cfb96424edcaa23b8ed9",
+    "bytes": 1200,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "scripts/prepare_comparison.py",
+    "source_id": "prepare_comparison.py",
+    "source_sha256": "c78a75c9ca3fe70fc14a7b7eba3d8641490045dd0fb8744a11e60d79dcfaf152",
+    "release_sha256": "3cb07fcb1bf2766a10a33de44b5be259ab8630365f831748563c38183ad80fee",
+    "bytes": 8044,
+    "change": "two input-root substitutions only"
+  },
+  {
+    "path": "scripts/comparison_statistics.R",
+    "source_id": "comparison_statistics.R",
+    "source_sha256": "c7e122fd87c9f582857f7361c910759ed83fa5c10b1fd32d34dadde393d78822",
+    "release_sha256": "c7e122fd87c9f582857f7361c910759ed83fa5c10b1fd32d34dadde393d78822",
+    "bytes": 11315,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "scripts/comparison_python.py",
+    "source_id": "comparison_python.py",
+    "source_sha256": "73515d7f38322e86898b2d37e4578cae40bbdae3723beb9651cec5c2d910a7cd",
+    "release_sha256": "73515d7f38322e86898b2d37e4578cae40bbdae3723beb9651cec5c2d910a7cd",
+    "bytes": 13229,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "scripts/retry_ours_family_numeric.R",
+    "source_id": "retry_ours_family_numeric.R",
+    "source_sha256": "32bebfbe11c309a01d9d3b110dbc9f68afb616bfc584a2cfed6dbd886c8395e6",
+    "release_sha256": "da593d6d44f705e4f67fcccb43222565b8acb7a97fc0693904f1561f5c3d37ce",
+    "bytes": 1611,
+    "change": "script discovery via explicit environment root; retry unchanged"
+  },
+  {
+    "path": "scripts/build_baseline_support.py",
+    "source_id": "build_baseline_support.py",
+    "source_sha256": "1efea36f11e2aabd561a4cc6cc0e4f1530bae302837009713d18e66a5f0e87f4",
+    "release_sha256": "8ce5d241787650e7721cbbc31af869e010913df87542e8f8e6cb266ae7efa544",
+    "bytes": 4371,
+    "change": "input root and obsolete generated documentation labels only"
+  },
+  {
+    "path": "scripts/rf_ecological_context.py",
+    "source_id": "run_rf_ecological_context_v1.py",
+    "source_sha256": "0feefb6cade5e219615d1ebfccdc2561b27efbd750612408213d1916074ea893",
+    "release_sha256": "a37a5fc98b42ae4ff7925a68081d44735292e134bf70ca54a74990f7c4936ea9",
+    "bytes": 16728,
+    "change": "input/output roots and explicit-run guard only; historical diagnostic plot retained"
+  },
+  {
+    "path": "scripts/composition_numeric.py",
+    "source_id": "run_composition_v1.py",
+    "source_sha256": "3ca3cc2a5fd15fa17dfc02214602bcc0dbe7bbdb6c981f37d5b978fbcba93f96",
+    "release_sha256": "2969aefb71e1016c65963f7fa7ef7223226c8a8b65204b8cf7819edaff62a01f",
+    "bytes": 9696,
+    "change": "numeric-only AST-verified extraction; identical annotation/aggregation functions and main prefix; omit plotting"
+  },
+  {
+    "path": "scripts/breadth_rf_depth.py",
+    "source_id": "run_additions_v1.py",
+    "source_sha256": "20ac54c2c0950566afce0aad539f352d79184f4b5f8a4c8edf25edd612077890",
+    "release_sha256": "92696c413cffecae7ef74ecd77318afef5ff535c5cdeaee9070e796c63fe8b1d",
+    "bytes": 16305,
+    "change": "input/output/import/provenance paths and explicit-run guard only; all 100 draws and models unchanged"
+  },
+  {
+    "path": "scripts/depth_statistics_v1.R",
+    "source_id": "depth_statistics_v1.R",
+    "source_sha256": "c82c2f841a561cc9aaf12e29a09f723c55ba9db6a7b1bfc5f9e996d3dfa72119",
+    "release_sha256": "c82c2f841a561cc9aaf12e29a09f723c55ba9db6a7b1bfc5f9e996d3dfa72119",
+    "bytes": 2853,
+    "change": "byte-identical source copy"
+  },
+  {
+    "path": "scripts/a1_restricted_sensitivity_v1.R",
+    "source_id": "a1_restricted_sensitivity_v1.R",
+    "source_sha256": "d303066ee5033c565e77b0b2ec98ee758cb2ae382a614ed387fe70bf8f48cd5a",
+    "release_sha256": "2bec884c00713326a89842881007700048d882027546c9caba0402efde68dae3",
+    "bytes": 5199,
+    "change": "two roots only; existing --check/--run guard retained"
+  }
+]

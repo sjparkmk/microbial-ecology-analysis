@@ -1,0 +1,7 @@
+# Narrow exceptions to the parent repository's generic inputs/ exclusion.
+!input/kss/inputs/
+!input/kss/inputs/*.tsv
+!input/comparative/inputs/
+!input/comparative/inputs/*.tsv
+__pycache__/
+*.pyc
