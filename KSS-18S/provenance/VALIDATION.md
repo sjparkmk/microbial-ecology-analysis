@@ -20,13 +20,14 @@
   rejection, nested input/output rejection, existing-output refusal, missing
   depth-stage dependency refusal and correct retry dispatch.
 - RF numerical functions are AST-identical to their source. Composition
-  annotation/aggregation functions and the retained numerical main prefix are
-  AST-identical. Other unchanged numerical helper functions were compared;
-  changed path/guard/documentation statements were reviewed separately.
+  annotation/aggregation functions are AST-identical; the retained numerical
+  main prefix is identical after normalizing two descriptive column names.
+  Other unchanged numerical helper functions were compared; changed
+  path/guard/documentation statements were reviewed separately.
 - No prohibited binary/raw/manuscript files or inspected private path/credential
   patterns were found in the package. Selected EukBank IDs reconcile 50/50,
   with exactly 32 projects. Third-party attribution is documented separately.
-- All nine protected V5.13 manuscript/SI/legend deliverable hashes match their
+- All nine protected manuscript/SI/legend deliverable hashes match their
   existing file-specific manifest. None is included in this public release.
 
 ## Limits and checks not run

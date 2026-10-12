@@ -22,7 +22,7 @@ permutations. The later A1 stage retains finer conditioning and restricted
 permutations, seed 20261007. Original formulas, factor levels, filters and model
 settings remain in the provided code. The source manifest identifies that code.
 
-Interpretation and reporting follow V5.13: external associations remain
+External associations remain
 source/design bounded; between-study Family terms are conditional candidates,
 not validated ecological indicators. No project-independent causal abiotic
 effect is established by these scripts.

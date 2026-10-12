@@ -32,9 +32,9 @@ def main():
 - Only the15 study libraries are used, each at the existing20,000-read depth. Detection means at least1 read in a rarefied library.
 - Strict ubiquity means detection in15/15: no ASV meets this criterion. This is an operational result, not proof that a universal biological core does not exist.
 - Source-defined recurrence means detection in at least8/15. Only ASV_000018 meets it (8/15); this does not mean it was detected in only one sample. Its taxonomy and all15 relative abundances are tabulated separately.
-- High abundance means at least0.2% of the300,000 pooled reads (at least600 reads), yielding66 ASVs. This is not the recurrence/core criterion. The historical66-ASV tree (V5.13 Figure S8) is therefore a high-abundance short-amplicon display, not a core tree or organismal phylogeny.
+- High abundance means at least0.2% of the300,000 pooled reads (at least600 reads), yielding66 ASVs. This is not the recurrence/core criterion. The historical66-ASV tree (Figure S8) is therefore a high-abundance short-amplicon display, not a core tree or organismal phylogeny.
 - Recurrence is sensitive to denoising/pooling and detection thresholds; consult the historical denoising sensitivity record (not repeated-subsampling recurrence validation). Absence of ubiquitous ASVs does not itself prove microdiversity, dispersal limitation or habitat specificity.
-- Good's coverage is1 − singleton reads / total reads; Pielou is Shannon / ln(observed ASVs). These descriptive values add no new tests. Main15 raw minimum is25,798, so28,000-read rarefaction would not retain all15 in this RunA dataset. The current author-approved20,000-read baseline remains fixed.
+- Good's coverage is1 − singleton reads / total reads; Pielou is Shannon / ln(observed ASVs). These descriptive values add no new tests. Main15 raw minimum is25,798, so28,000-read rarefaction would not retain all15 in this KSS-18S dataset. The current author-approved20,000-read baseline remains fixed.
 ''',encoding='utf-8')
  (out/'source_manifest.json').write_text(json.dumps([{'path':str(q),'sha256':hashlib.sha256(q.read_bytes()).hexdigest()} for q in paths],indent=2),encoding='utf-8')
  print(f'PASS strict core0; recurrent1 ({recurrent.asv_id.iloc[0]}); display66; alpha15')

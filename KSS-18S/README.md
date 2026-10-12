@@ -1,15 +1,13 @@
-# KSS-18S — V5.13 analysis-code and selected-data release
+# KSS-18S — analysis code and selected data
 
 Minimal numerical code and processed inputs supporting the **Korean
-Solid-Substrate 18S (KSS-18S)** study. This is a code/data release, not a new
-analysis or a copy of the manuscript. V5.13 is the editorial reference version;
-its underlying frozen Run A analyses were not rerun to build this package.
+Solid-Substrate 18S (KSS-18S)** study.
 
 ## Data included
 
 | Collection | Libraries | Included material |
 |---|---:|---|
-| KSS-18S | 15 | Run A unrarefied counts, fixed 20,000-read counts, PR2 taxonomy and metadata |
+| KSS-18S | 15 | Unrarefied counts, fixed 20,000-read counts, PR2 taxonomy and metadata |
 | Coastal (`d2024`) | 75 | Selected ALL_EUK processed counts, taxonomy, metadata and selection record |
 | EukBank | 50 | Selected ALL_EUK processed counts, taxonomy, metadata and accessions from 32 projects |
 | Harmonized comparison | 140 | Frozen lineage-qualified Genus/Family counts, metadata and existing Bray–Curtis distances |
@@ -28,7 +26,7 @@ KSS-18S/
   run.py                    # check-only by default; opt-in stage dispatch
   scripts/                  # 6 scientific Python and 4 scientific R scripts
   input/
-    kss/                    # 15-study-column projection of the frozen Run A
+    kss/                    # 15 study libraries and associated metadata
     d2024/                  # 75 selected Coastal libraries
     eukbank/                # 50 selected libraries + accession/project records
     comparative/            # frozen 140-library aggregate inputs + distances
@@ -118,7 +116,7 @@ This is not a FASTQ-to-publication pipeline or a figure-layout archive. It does
 not include DADA2/primer processing, complete reference databases, every legacy
 exploratory script, tree inference, or all final figure-rendering dependencies.
 The exact original KSS alpha-test/PERMANOVA implementation was not located in
-the bounded canonical source inventory; existing V5.13 results are preserved
+the bounded canonical source inventory; existing study results are preserved
 in `input/reference_results/`, and no replacement statistical implementation
 was invented. `baseline` reproduces descriptive alpha/recurrence definitions,
 not those historical inferential tests. `community` is the separate aggregate
@@ -127,7 +125,7 @@ Family/Genus comparison and must not be presented as that missing ASV test.
 `composition` is an explicitly documented numeric-only extraction of the
 existing composition script; private plotting-style dependencies are omitted.
 An inherited diagnostic RF plot may be emitted by `rf-lopo`; it is not the final
-V5.13 Figure 5 layout. Refer to [STAGE_MAP.md](provenance/STAGE_MAP.md) for scope.
+Figure 5 layout. Refer to [STAGE_MAP.md](provenance/STAGE_MAP.md) for scope.
 
 Full end-to-end execution and numerical equality of regenerated results have
 **not** been tested in this release. Source hashes, limited code-diff checks,

@@ -1,4 +1,4 @@
-"""Prepare provenance-checked Run A + selected external count tables (no inference)."""
+"""Prepare provenance-checked KSS-18S + selected external count tables (no inference)."""
 from __future__ import annotations
 import argparse
 import hashlib

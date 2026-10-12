@@ -2,7 +2,7 @@
 """Check the frozen input package or explicitly execute ONE existing stage.
 
 The default is read-only validation, never an analysis. Commands invoke the
-frozen numerical definitions; they do not recreate the V5.13 publication layout.
+frozen numerical definitions; they do not recreate the publication layout.
 """
 from pathlib import Path
 import argparse
