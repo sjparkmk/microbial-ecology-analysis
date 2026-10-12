@@ -110,12 +110,12 @@ def main():
     assert counts.sum(axis=1).gt(0).sum()==4586
     assert tax.Domain.eq('Eukaryota').all()
     ledger=pd.concat([tax,tax.apply(annotate,axis=1)],axis=1)
-    ledger['RunA_20k_total_reads']=counts.sum(axis=1);ledger['RunA_20k_prevalence_libraries']=counts.gt(0).sum(axis=1)
+    ledger['study_20k_total_reads']=counts.sum(axis=1);ledger['study_20k_prevalence_libraries']=counts.gt(0).sum(axis=1)
     ledger['retained_in_protist_enriched']=ledger.organism_group.eq('Protist-enriched')
     ledger.index.name='ASV'
     tsv(ledger,'ASV_taxonomy_trophic_annotation_ledger_v1.tsv');tsv(meta,'display_sample_order_metadata_v1.tsv')
-    observed=ledger.RunA_20k_total_reads.gt(0)
-    tsv(ledger.loc[observed].groupby(['organism_group','potential_trophic_affinity','mode_rule']).agg(reads=('RunA_20k_total_reads','sum'),observed_ASVs=('RunA_20k_total_reads','size')),'annotation_rule_totals_v1.tsv')
+    observed=ledger.study_20k_total_reads.gt(0)
+    tsv(ledger.loc[observed].groupby(['organism_group','potential_trophic_affinity','mode_rule']).agg(reads=('study_20k_total_reads','sum'),observed_ASVs=('study_20k_total_reads','size')),'annotation_rule_totals_v1.tsv')
     groups=aggregate(counts,ledger,'organism_group',TYPES);group_pct=groups/20000*100
     prot=counts.loc[ledger.retained_in_protist_enriched]
     den=prot.sum();assert den.gt(0).all()

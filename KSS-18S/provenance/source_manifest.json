@@ -235,9 +235,9 @@
     "path": "scripts/prepare_comparison.py",
     "source_id": "prepare_comparison.py",
     "source_sha256": "c78a75c9ca3fe70fc14a7b7eba3d8641490045dd0fb8744a11e60d79dcfaf152",
-    "release_sha256": "3cb07fcb1bf2766a10a33de44b5be259ab8630365f831748563c38183ad80fee",
-    "bytes": 8044,
-    "change": "two input-root substitutions only"
+    "release_sha256": "72aa02b5ac0b71d5f0a84edfa294275e41ed26439ce736162d7fd721eee5346d",
+    "bytes": 8046,
+    "change": "two input-root substitutions only; public wording standardized"
   },
   {
     "path": "scripts/comparison_statistics.R",
@@ -267,25 +267,25 @@
     "path": "scripts/build_baseline_support.py",
     "source_id": "build_baseline_support.py",
     "source_sha256": "1efea36f11e2aabd561a4cc6cc0e4f1530bae302837009713d18e66a5f0e87f4",
-    "release_sha256": "8ce5d241787650e7721cbbc31af869e010913df87542e8f8e6cb266ae7efa544",
-    "bytes": 4371,
-    "change": "input root and obsolete generated documentation labels only"
+    "release_sha256": "bacf8145586ace0915186634a1904841eac3a9ef995614baa3dd70a38d7aee51",
+    "bytes": 4368,
+    "change": "input root and obsolete generated documentation labels only; public wording standardized"
   },
   {
     "path": "scripts/rf_ecological_context.py",
     "source_id": "run_rf_ecological_context_v1.py",
     "source_sha256": "0feefb6cade5e219615d1ebfccdc2561b27efbd750612408213d1916074ea893",
-    "release_sha256": "a37a5fc98b42ae4ff7925a68081d44735292e134bf70ca54a74990f7c4936ea9",
-    "bytes": 16728,
-    "change": "input/output roots and explicit-run guard only; historical diagnostic plot retained"
+    "release_sha256": "d9a8fef0031ed86f22b5b93ff4af6288d4dcc9f8efaf933975ce5b5f30b0f5e9",
+    "bytes": 16722,
+    "change": "input/output roots and explicit-run guard only; historical diagnostic plot retained; public wording standardized"
   },
   {
     "path": "scripts/composition_numeric.py",
     "source_id": "run_composition_v1.py",
     "source_sha256": "3ca3cc2a5fd15fa17dfc02214602bcc0dbe7bbdb6c981f37d5b978fbcba93f96",
-    "release_sha256": "2969aefb71e1016c65963f7fa7ef7223226c8a8b65204b8cf7819edaff62a01f",
-    "bytes": 9696,
-    "change": "numeric-only AST-verified extraction; identical annotation/aggregation functions and main prefix; omit plotting"
+    "release_sha256": "a81569db41c14c024f037edad4cc647276bc84c573248f4deaa98ea4e7283795",
+    "bytes": 9701,
+    "change": "numeric-only AST-verified extraction; identical annotation/aggregation functions and main prefix; omit plotting; two descriptive output-column names standardized; formulas unchanged"
   },
   {
     "path": "scripts/breadth_rf_depth.py",

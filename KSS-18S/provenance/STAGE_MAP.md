@@ -1,15 +1,15 @@
 # Stage-to-evidence map
 
-| Stage | Existing source lineage | Numerical scope / V5.13 association |
+| Stage | Existing source workflow | Numerical scope / study association |
 |---|---|---|
-| prepare | Run A finalization | Frozen Genus/Family input preparation; Figure 3–5 input basis |
-| baseline | Run A baseline support | Individual alpha, ASV recurrence and abundance thresholds; Tables S4/S9 |
-| composition | Run A follow-up composition | Exact existing trophic annotation and aggregate counts; Table S11; no plotting |
-| community | Run A comparison R | Aggregate Bray–Curtis/PCoA/PERMANOVA/PERMDISP; Table S8; historical diagnostics remain labelled |
-| daa / daa-retry | Run A comparison R + documented failure retry | ANCOM-BC2 numerical models; finite effects and structural zeros separate; Table S14 basis |
-| aldex | Run A comparison R | ALDEx2 two-group sensitivity, including KSS ASV exposure; Table S14 basis |
-| rf-grouped | Run A comparison Python | Cluster-grouped RF and diagnostics; Table S17 |
-| rf-lopo | 24 September Run A follow-up | Source-project LOPO and fixed-OOF project bootstrap; Table S16 |
+| prepare | Comparative input preparation | Frozen Genus/Family input preparation; Figure 3–5 input basis |
+| baseline | KSS descriptive analysis | Individual alpha, ASV recurrence and abundance thresholds; Tables S4/S9 |
+| composition | Taxonomic composition | Exact existing trophic annotation and aggregate counts; Table S11; no plotting |
+| community | Comparative R analysis | Aggregate Bray–Curtis/PCoA/PERMANOVA/PERMDISP; Table S8; historical diagnostics remain labelled |
+| daa / daa-retry | Comparative R analysis + documented failure retry | ANCOM-BC2 numerical models; finite effects and structural zeros separate; Table S14 basis |
+| aldex | Comparative R analysis | ALDEx2 two-group sensitivity, including KSS ASV exposure; Table S14 basis |
+| rf-grouped | Comparative Python analysis | Cluster-grouped RF and diagnostics; Table S17 |
+| rf-lopo | Ecological-context RF | Source-project LOPO and fixed-OOF project bootstrap; Table S16 |
 | breadth-depth | 1 October additions | Descriptive breadth, KSS RF, fixed depth-sensitivity draws; Tables S2/S13/S18 basis |
 | depth-statistics | 1 October R substep | Marginal PERMANOVA/dispersion on six precomputed depth distances; Table S13 |
 | a1 | 7 October restricted sensitivity | Fine-block-conditioned sensitivity; current external-comparison interpretation |

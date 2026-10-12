@@ -4,7 +4,7 @@ Reproducible analysis workflows and code for microbial ecology research.
 
 ## Paper index
 
-- [KSS-18S — V5.13](KSS-18S/README.md) — minimal Python/R numerical workflows and the selected processed KSS-18S, Coastal and EukBank inputs used by this study.
+- [KSS-18S](KSS-18S/README.md) — minimal Python/R numerical workflows and the selected processed KSS-18S, Coastal and EukBank inputs used by this study.
 - [2024 coastal 16S/18S analysis](papers/2024-coastal-16S-18S/README.md) — public in-house scripts, configuration templates, provenance records, and release checks for the associated amplicon study.
 
 Each paper is maintained in its own versioned subdirectory so that additional

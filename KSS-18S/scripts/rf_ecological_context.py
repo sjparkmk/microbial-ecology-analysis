@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Run A ecological-context RF comparison. Reads only frozen Run A inputs."""
+"""Ecological-context RF comparison. Reads only frozen study inputs."""
 from __future__ import annotations
 
 import hashlib, json, platform, sys
