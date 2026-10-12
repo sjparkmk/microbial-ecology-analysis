@@ -1,0 +1,16 @@
+sample	source_sample	dataset	sample_type	substrate	exposure	site	region	season	cluster	project	latitude	longitude	pH	raw_eukaryote_reads
+ours:dbw	dbw	ours	land_sediment	sediment	exposed	Dongbaek dongan wetland	Jeju	unavailable	ours:dbw	ours			3.5	25798
+ours:gc	gc	ours	land_sediment	sand	submerged	Gapcheon	Main	unavailable	ours:gc	ours			6.75	32166
+ours:gkp	gkp	ours	land_sediment	sediment	submerged	Gikkumul	Jeju	unavailable	ours:gkp	ours			4.75	71206
+ours:gjs	gjs	ours	land_soil	soil	exposed	Gokjawal soil	Jeju	unavailable	ours:gjs	ours			4.7	34353
+ours:hmc	hmc	ours	land_soil	soil	exposed	heavy metal-contaminated	Main	unavailable	ours:hmc	ours			4.25	67850
+ours:hfs	hfs	ours	land_soil	soil	exposed	Halla forest soil	Jeju	unavailable	ours:hfs	ours			4.7	34616
+ours:hfp	hfp	ours	land_sediment	sediment	submerged	Halla forest pond	Jeju	unavailable	ours:hfp	ours			5.5	27862
+ours:hdp	hdp	ours	land_sediment	sand	submerged	Hadori pond	Jeju	unavailable	ours:hdp	ours			7.75	27951
+ours:hgp	hgp	ours	land_sediment	sediment	submerged	Hagari pond	Jeju	unavailable	ours:hgp	ours			5.75	29294
+ours:nsp	nsp	ours	land_sediment	sediment	submerged	Namsaengi pond	Jeju	unavailable	ours:nsp	ours			5.75	33612
+ours:ogp	ogp	ours	land_sediment	sediment	submerged	ongusu	Jeju	unavailable	ours:ogp	ours			5.25	29605
+ours:ssp	ssp	ours	land_sediment	sediment	submerged	soosanhan pond	Jeju	unavailable	ours:ssp	ours			4.75	65926
+ours:ssr	ssr	ours	land_sediment	sediment	exposed	susan resevoir	Jeju	unavailable	ours:ssr	ours			6.3	32821
+ours:swp	swp	ours	land_sediment	sediment	exposed	suwoli pond	Jeju	unavailable	ours:swp	ours			5.25	83247
+ours:dgw	dgw	ours	land_sediment	sediment	submerged	Youngeup (Dragond wetland)	Main	unavailable	ours:dgw	ours			4.29	44986
