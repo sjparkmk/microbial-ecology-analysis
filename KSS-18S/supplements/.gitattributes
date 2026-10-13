@@ -1,0 +1,3 @@
+# Scientific workbook and figure assets are binary; preserve exact bytes.
+*.xlsx binary
+*.pdf binary
