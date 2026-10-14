@@ -18,8 +18,10 @@ historical label of 25 sampling combinations does **not** reduce these data to
 libraries within each location. The harmonized comparison has 34 source projects.
 
 Only the selected external subsets are included, not the complete EukBank
-database. There are no raw FASTQ files, database FASTA files, manuscripts, PDFs,
+database. There are no raw FASTQ files, database FASTA files, manuscripts,
 EndNote libraries, private conversations, machine configuration or credentials.
+Consolidated scientific-result workbooks and a three-page Additional Data
+figure PDF are available in [supplements/](supplements/README.md).
 
 ```
 KSS-18S/
@@ -32,6 +34,7 @@ KSS-18S/
     comparative/            # frozen 140-library aggregate inputs + distances
     reference_results/      # four compact existing result tables, not rerun
   provenance/               # source hashes, portability scope and attribution
+  supplements/              # two indexed result workbooks and three AD figures
 ```
 
 ## Start with read-only validation
@@ -112,7 +115,7 @@ model-contract files. The launcher never promotes a failed model to a finding.
 
 ## What this minimal package does not reproduce
 
-This is not a FASTQ-to-publication pipeline or a figure-layout archive. It does
+This is not a FASTQ-to-publication pipeline or a complete figure-layout archive. It does
 not include DADA2/primer processing, complete reference databases, every legacy
 exploratory script, tree inference, or all final figure-rendering dependencies.
 The exact original KSS alpha-test/PERMANOVA implementation was not located in
